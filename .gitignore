@@ -6,5 +6,6 @@ Thumbs.db
 # Dependencies (none currently, but safe to ignore)
 node_modules/
 
-# Local preview helpers (not needed in production)
+# Local preview helpers / local-only settings (not needed in production)
 .claude/server.js
+.claude/settings.local.json
