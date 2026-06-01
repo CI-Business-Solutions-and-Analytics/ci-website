@@ -1,0 +1,10 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies (none currently, but safe to ignore)
+node_modules/
+
+# Local preview helpers (not needed in production)
+.claude/server.js

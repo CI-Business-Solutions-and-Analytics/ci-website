@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | CI Business Solutions and Analytics</title>
+  <meta name="description" content="Book a demo or ask about integration. CI Business Solutions and Analytics — cloud-based HR products for role design, organisation design and workforce planning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">CI</span>
+        <span class="brand-sub">Business Solutions<br />&amp; Analytics</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="btn btn-primary nav-cta">Book a demo</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="orb orb-1"></span><span class="orb orb-2"></span><span class="grid-overlay"></span>
+      </div>
+      <div class="container">
+        <div class="page-hero-inner">
+          <p class="pill"><span class="pill-dot"></span> Contact</p>
+          <h1>Let's show you what CI can do on your data.</h1>
+          <p class="lead">
+            Whether you want a demo, have a question about integration, or just want to talk through the gaps
+            in your current HR systems, we'd be glad to hear from you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Contact details</h2>
+          <p>We typically respond within <span class="ph">[ e.g. one business day ]</span>.</p>
+          <ul class="contact-list">
+            <li><strong>Email</strong><span class="ph">[ email address ]</span></li>
+            <li><strong>Phone</strong><span class="ph">[ phone number ]</span></li>
+            <li><strong>Address</strong><span class="ph">[ business address ]</span></li>
+            <li><strong>ABN</strong><span class="ph">[ ABN ]</span></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden><label>Leave this empty: <input name="bot-field" /></label></p>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full name <span class="req">*</span></label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="field">
+              <label for="org">Organisation <span class="req">*</span></label>
+              <input type="text" id="org" name="organisation" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Email <span class="req">*</span></label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="interest">Interest</label>
+              <select id="interest" name="interest">
+                <option value="">Select…</option>
+                <option>SmartRDpro</option>
+                <option>SmartODpro</option>
+                <option>SmartWPro</option>
+                <option>Integration</option>
+                <option>General</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="employees">Approx. number of employees</label>
+              <input type="text" id="employees" name="employees" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">How can we help? <span class="req">*</span></label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send enquiry</button>
+          <p class="form-reassure">
+            Your information is handled in line with our Privacy Policy and applicable privacy legislation.
+            <span class="ph-note">[VERIFY] As a SaaS company processing HR/personal data, your privacy obligations (Privacy Act 1988 (Cth) and possibly state legislation) are significant. Confirm specifics with a legal adviser. This form is a front-end demo — connect it to a backend or form service (e.g. Netlify Forms) to actually receive submissions.</span>
+          </p>
+          <p class="form-note" hidden>Thanks — your enquiry has been sent. We'll be in touch.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="brand-mark">CI</span>
+          <p>Cloud-based HR products for role design, organisation design, and workforce planning — built to integrate with the systems you already run.</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="index.html">Home</a><a href="products.html">Products</a><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="#"><span class="ph">[ Privacy Policy ]</span></a><a href="#"><span class="ph">[ Terms ]</span></a><a href="#"><span class="ph">[ Security ]</span></a><a href="#"><span class="ph">[ Accessibility ]</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> CI Business Solutions and Analytics. ABN <span class="ph">[ ABN ]</span></span>
+        <span>Made for medium &amp; large organisations across Australia</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
