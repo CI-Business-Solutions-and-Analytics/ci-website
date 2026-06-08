@@ -9,3 +9,6 @@ node_modules/
 # Local preview helpers / local-only settings (not needed in production)
 .claude/server.js
 .claude/settings.local.json
+
+# Working draft copy of the site (not for deploy)
+draft/
