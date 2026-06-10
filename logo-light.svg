@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 140" role="img" aria-label="CIpro — CI Business Solutions and Analytics" style="color:#ffffff">
+  <defs>
+    <linearGradient id="ciGradL" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82ff"/>
+      <stop offset="55%" stop-color="#9061ff"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wordmark: CI prominent + PRO superscript -->
+  <g font-family="Inter, 'Segoe UI', system-ui, -apple-system, Arial, sans-serif">
+    <text x="14" y="104" font-size="106" font-weight="800" letter-spacing="-6" fill="url(#ciGradL)">CI</text>
+    <text x="150" y="52" font-size="33" font-weight="700" letter-spacing="2" fill="#ffffff">PRO</text>
+  </g>
+
+  <!-- Growth / continuous-improvement rising arrow (integrated underline) -->
+  <g stroke="url(#ciGradL)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M18 120 H120 L160 80"/>
+    <path d="M160 80 L138 82 M160 80 L158 102"/>
+  </g>
+</svg>
