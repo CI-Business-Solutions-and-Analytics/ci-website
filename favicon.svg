@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Cipro">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563ff"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="98" height="98" rx="26" fill="url(#favGrad)"/>
+  <g font-family="Inter, 'Segoe UI', system-ui, -apple-system, Arial, sans-serif" fill="#ffffff">
+    <text x="16" y="58" font-size="42" font-weight="800" letter-spacing="-2">C<tspan font-style="italic">i</tspan></text>
+    <text x="56" y="38" font-size="16" font-weight="700">pro</text>
+  </g>
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M16 80 H58 L80 62"/>
+    <path d="M80 62 L64 63 M80 62 L79 78"/>
+  </g>
+</svg>
