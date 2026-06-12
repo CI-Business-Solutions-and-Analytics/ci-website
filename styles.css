@@ -81,6 +81,9 @@ h4 { font-size: 1.05rem; font-weight: 700; }
 .brand-sub { font-size: 0.68rem; line-height: 1.25; font-weight: 600; color: var(--gray-500); letter-spacing: 0.01em; text-transform: uppercase; }
 .brand-logo { height: 42px; width: auto; display: block; }
 .brand-logo-footer { height: 34px; width: auto; display: block; margin-bottom: 10px; }
+.footer-tagline { margin-top: 14px; font-style: italic; font-weight: 700; font-size: 1.05rem;
+  background: linear-gradient(110deg,#3b82ff,#9061ff 55%,#22d3ee); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.footer-products { margin-top: 6px; font-size: 0.85rem; font-weight: 600; color: #aab6cf; letter-spacing: 0.02em; }
 .nav { display: flex; align-items: center; gap: 28px; }
 .nav > a { position: relative; font-weight: 500; font-size: 0.96rem; color: var(--gray-700); transition: color 0.15s; }
 .nav > a:not(.nav-cta):hover { color: var(--ink); }
